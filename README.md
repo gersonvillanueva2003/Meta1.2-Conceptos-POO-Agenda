@@ -42,7 +42,7 @@ CREATE TABLE PersonaDireccion (
 ## Instalación y Ejecución
 
 1. Clonar el repositorio:
-   git clone 
+   git clone https://github.com/gersonvillanueva2003/Meta1.2-Conceptos-POO-Agenda.git
    cd Meta1.2-Conceptos-POO-Agenda
 
 2. Cargar la base de datos:
