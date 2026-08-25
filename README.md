@@ -1,4 +1,3 @@
-﻿# Meta1.1_-Programar-un-CRUD
 # Sistema de Agenda CRUD - Meta 1.2 (JavaFX y MariaDB)
 
 Aplicación de escritorio desarrollada en JavaFX para gestionar personas, sus teléfonos y direcciones asociadas mediante una relación N:M (Muchos a Muchos).
