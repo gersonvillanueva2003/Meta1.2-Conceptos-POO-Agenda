@@ -1,4 +1,4 @@
-package com.agenda;
+package com.agenda.model;
 
 import java.util.List;
 
@@ -9,7 +9,10 @@ public class Persona {
     private List<String> telefonos;
     private List<Direccion> direcciones;
 
-    public Persona(int id, String nombre, List<String> telefonos, List<Direccion> direcciones) {
+    public Persona(int id,
+                   String nombre,
+                   List<String> telefonos,
+                   List<Direccion> direcciones) {
         this.id = id;
         this.nombre = nombre;
         this.telefonos = telefonos;
@@ -28,6 +31,7 @@ public class Persona {
         return direcciones;
     }
     public String getTelefonosComoString() {
+
         if (telefonos == null || telefonos.isEmpty()) {
             return "";
         }
